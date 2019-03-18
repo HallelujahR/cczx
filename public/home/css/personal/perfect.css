@@ -1,0 +1,201 @@
+#perfect{
+	float:left;
+	padding-left:0px;
+	height:50px;
+	line-height:50px;
+	width:100%;
+	background-color:#F0F0F0;
+	/*border:1px solid red;*/
+}
+.perfect > li{
+	float:left;
+	list-style-type:none;
+	text-align:center;
+	width:10%;
+	height:100%;
+	/*border:1px solid blue;*/
+}
+.perfect > li > a{
+	float:left;
+	width:100%;
+	height:100%;
+}
+.active > a{
+	color:#006AB1;
+	text-decoration:none;
+	background-color:#E8E8E8;
+}
+
+#card{
+	float:left;
+	width:100%;
+	padding-left:10px;
+	/*border:1px solid red;*/
+}
+.card_info{
+	width:100%;
+	height:40px;
+	line-height:40px;
+}
+.card_info > b{
+	color:#00A2C4;
+	margin-right:10px;
+}
+.card_info > span{
+	font-size:13px;
+}
+.card_message{
+	height:35px;
+	line-height:35px;
+}
+.card_message > span{
+	float:left;
+	margin-right:10px;
+	width:5px;
+	height:100%;
+	background-color:orange;
+}
+.card_pic{
+	width:100%;
+	/*border:1px solid red;*/
+}
+.card_file{
+	float:left;
+	width:240px;
+	height:150px;
+	border-radius:10px;
+	border:1px solid #ccc;
+}
+.card_file:hover{
+	cursor:pointer;
+}
+.card_base_img{
+	width:100%;
+	height:100%;
+	border-radius:10px 10px 0px 0px;
+	border:0px;
+}
+#card_opposite > div,#card_positive > div{
+	width:99.9%;
+	height:120px;
+	border-radius:10px 10px 0px 0px;
+}
+.card_file > div{
+	padding-left:1px;
+	padding-top:1px;
+}
+.card_file > a{
+	float:left;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color:white;
+	border-radius:0px 0px 10px 10px;
+	background-color:#50A0C3;
+}
+.card_file > a:hover{
+	color:white;
+	text-decoration:none;
+}
+.card_info_sfz{
+	float:right;
+	width:500px;
+	height:150px;
+	border-left:1px solid #DDDDDD;
+	margin-bottom:30px;
+}
+.card_info_sfz > ul{
+	padding:20px;
+	height:100%;
+}
+.card_info_sfz > ul > li{
+	margin-left:10px;
+	list-style-type:square;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px dashed #ccc;
+}
+#card_info_hold > ul{
+	padding-top:0px;
+}
+#card_info_hold > ul >li{
+	height:30px;
+	line-height:30px;
+}
+.card_color{
+	color:red;
+}
+.sfzPic{
+	display:none !important;
+}
+.card_status{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	font-size:18px;
+}
+#bank{
+	float:left;
+	width:100%;
+	/*height:1000px;*/
+}
+
+#bank-exist{
+	/*border:1px solid red;*/
+	height:270px;
+	width:100%;
+	margin-bottom:15px;
+}
+
+.bank-line-title{
+	width:150px !important;
+}
+.bank-line-bank{
+
+}
+.bank-layui-input{
+	width:500px !important;
+}
+#bank-tj{
+	/*border:1px solid red;*/
+	height:50px;
+	overflow: hidden;
+}
+#bank-tj-a{
+	height:40px;
+	width:100%;
+	background-color:#efefef;
+	line-height:40px;
+	padding-left:20px;
+	box-shadow:0px 0px 5px #CCC;
+	margin-bottom:20px;
+}
+#bank-exist-a{
+	height:40px;
+	width:100%;
+	background-color:#efefef;
+	line-height:40px;
+	padding-left:20px;
+	box-shadow:0px 0px 5px #CCC;
+	margin-bottom:10px;
+}
+#bank-tj-a:hover{
+	cursor: pointer;
+}
+#bank-exist-a:hover{
+	cursor: pointer;
+}
+#bank-tj-img{
+	margin-top:10px;
+	margin-right:20px;
+}
+#bank-exist-img{
+	margin-top:10px;
+	margin-right:20px;
+}
+.bank-click{
+	color:#71B6CE;
+}
+

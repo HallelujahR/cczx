@@ -1,0 +1,13 @@
+.cb-slideshow-text-container{
+	color:white;
+}
+.cb-slideshow-text-container input{
+	width:400px;
+	height:40px;
+}
+#register_btn {
+	width:30%;
+}
+#have_pass:hover{
+	color:#DE711C;
+}

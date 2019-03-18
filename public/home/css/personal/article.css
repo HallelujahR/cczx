@@ -1,0 +1,88 @@
+/*分类页右栏文章内容*/
+#cate_right_con{
+	float:left;
+    margin-top:20px;
+	width:100%;
+	margin-bottom:10px;
+}
+
+#cate_right_con > ul{
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+#cate_right_con > ul > li{
+	float:left;
+    padding-left:10px;
+	width:49.2%;
+	margin-top:5px;
+	list-style-type:none;
+	border-bottom:1px solid #DDDDDD;
+}
+
+#cate_right_con > ul > li:hover{
+    transition: all 0.5s;
+    box-shadow:0px 0px 5px #CEC9C9;
+    background-color:#FDFDFE;
+}
+
+.two{
+	margin-left:15px;
+}
+
+#cate_right_con > ul > li > span{
+	float:left;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px dashed #ccc;
+}
+
+#cate_right_con > ul > li > span > a{
+	font-size:18px;
+	font-weight:bold;
+}
+
+#cate_right_con > ul > li > label{
+	float:left;
+	width:100%;
+	height:30px;
+}
+
+#cate_right_con > ul > li > label > div{
+	float:left;
+	width:16px;
+	height:17px;
+	margin-top:6px;
+}
+
+#cate_right_con > ul > li > label > div:first-child{
+	background-image:url('/home/images/tubiao.png');
+	background-position: 416px -101px;
+    border-radius:13px;
+}
+
+#cate_right_con > ul > li > label > div:nth-of-type(2){
+	margin-left:50px;
+	background-image:url('/home/images/tubiao2.png');
+	background-position: -419px -300px;
+}
+
+#cate_right_con > ul > li > label > div:nth-of-type(3){
+	margin-left:50px;
+	background-image:url('/home/images/tubiao.png');
+	background-position: 416px -32px;
+    border-radius:13px;
+}
+
+#cate_right_con > ul > li > label > span{
+	float:left;
+	font-size:13px;
+	height:30px;
+	line-height:30px;
+	color:#989898;
+	margin-left:5px;
+}
+

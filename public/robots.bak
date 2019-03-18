@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: 
+Disallow: /admin/
+Disallow: /admins/
+Disallow: /articleCommentPic/
+Disallow: /articlePic/
+Disallow: /css/
+Disallow: /home/
+Disallow: /js/
+Disallow: /layer/
+Disallow: /postPic/
+Disallow: /wangEditor/
+Disallow: /x-admin/

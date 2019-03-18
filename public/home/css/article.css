@@ -1,0 +1,42 @@
+#article_con{
+	width:1200px;
+	margin:0px auto;
+}
+
+/*表单*/
+.info{
+	padding:0px;
+	height:34px;
+	line-height:34px;
+	color:#989898;
+	font-size:13px;
+}
+.info > span{
+	float:left;
+	display:block;
+	height:34px;
+	line-height:34px;
+	color:red;
+}
+.info > div{
+	margin-left:5px;
+	padding-top:1px;
+	float:left;
+	height:34px;
+	line-height:34px;
+}
+.order {
+   height: 60px;
+   line-height: 60px;
+   text-align: center;
+}
+.order .line {
+   display: inline-block;
+   width: 45%;
+   border-top: 1px solid #ccc ;
+}
+.order .txt {
+   vertical-align: middle;
+   font-weight: bold;
+   font-size: 20px;
+}

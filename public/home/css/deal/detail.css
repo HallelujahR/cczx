@@ -1,0 +1,85 @@
+.res{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.res div{
+    width:50%;
+    line-height:55px;
+    border-bottom:1px solid #ccc;
+}
+#res-btn{
+    text-align:center;
+}
+.res-btn_son{
+    height:40px;
+    border-radius:20px;
+    line-height:40px;
+    padding:0px 10px 0px 10px;
+}
+.btn-y{
+    background-color: #f4b43f;
+    color:white;
+    margin-right:50px;
+
+}
+.btn-n{
+    background-color: #eb3836;
+    color:white;
+}
+#match{
+    box-shadow:0px 0px 5px #CCC;
+    float:left;width:100%;
+}
+.other-title{
+    width:100%;
+    background-color: #F0F0F0;
+    padding:10px;
+}
+.other-body{
+    display: flex;
+    flex-direction: row;
+
+}
+.other-body_son{
+    width: 50%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+.other-body_son_body{
+    display: flex;
+    flex-direction: column;
+}
+.other-body_son_body div{
+    padding:5px;
+    font-size:14px;
+}
+.newDeal{
+    padding: 10px;
+}
+.newDeal_sell{
+    float: left;
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: orangered;
+    border: 1px solid orangered;
+    text-align: center;
+    border-radius: 20px;
+}
+.newDeal_buy{
+    float: left;
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: blue;
+    border: 1px solid blue;
+    text-align: center;
+    border-radius: 20px;
+}

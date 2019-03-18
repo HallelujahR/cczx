@@ -1,0 +1,12 @@
+.fa-i{
+	/*color:red;*/
+	font-size:20px;
+	margin-top:25px;
+}
+.fa-i:hover{
+	color:#52A2EA;
+	cursor: pointer;
+}
+.caozuo{
+	display:none;
+}

@@ -1,0 +1,298 @@
+/*详情页大框*/
+#detail_con{
+	width:1200px;
+	margin:0 auto;
+	position:relative;
+	
+}
+
+li{
+	list-style-type:none;
+}
+
+/*详情页左栏*/
+#detail_left{
+	float:left;
+	width:73%;
+}
+
+/*详情页导航条*/
+.detail_dh{
+	height:40px;
+	line-height:40px;
+	background-color:#F0F0F0;
+	border:1px solid #ccc;
+	border-top:2px solid #e3e3e3;
+	padding-left:10px;
+}
+
+.detail_dh > a{
+	margin-left:10px;
+	margin-right:10px;
+	font-weight:bold;
+	font-size:22px;
+}
+
+.detail_dh > span{
+	font-size:22px;
+	color:#4B4B4B;
+}
+
+/*详情页标题*/
+#detail_left > h1{
+	height:62px;
+	margin-top:0px;
+	line-height:62px;
+	text-align:center;
+	color:#AE0000;
+	letter-spacing:5px;
+	font-weight:normal;
+	font-size:22px;
+	border-bottom:1px dashed #ccc;
+	overflow:hidden;
+}
+
+.detail_detail{
+	margin-top:-10px;
+	height:40px;
+	border-bottom:1px dashed #ccc;
+}
+
+/*详情页文章内容*/
+.detail_detail > div:first-child{
+	margin-left:240px;
+	background-image:url('/home/images/tubiao.png');
+	background-position: 416px -32px;
+}
+
+.detail_detail > div:nth-of-type(2){
+	margin-left:20px;
+	background-image:url('/home/images/tubiao.png');
+	background-position: 416px -101px;
+}
+
+.detail_detail > div:nth-of-type(3){
+	margin-left:20px;
+	background-image:url('/home/images/tubiao2.png');
+	background-position: -419px -300px;
+}
+
+.detail_detail > div:first-child,.detail_detail > div:nth-of-type(2),.detail_detail > div:nth-of-type(3){
+	float:left;
+	width:16px;
+	height:17px;
+	margin-top:11px;
+}
+.detail_detail > div:nth-of-type(4){
+	float:right;
+	height:100%;
+	line-height:40px;
+}
+
+.detail_detail > span{
+	float:left;
+	font-size:13px;
+	height:100%;
+	line-height:40px;
+	color:#989898;
+	margin-left:10px;
+}
+
+.detail_content{
+	padding-top:10px;
+	padding-left:25px;
+}
+
+#author{
+	float:right;
+	margin-top:0px;
+	font-size:14px;
+	width:75px;
+	height:100%;
+	line-height:40px;
+}
+
+#author > a{
+	color:#0098D2;
+}
+
+#author > a:hover{
+	color:#006B93;
+	text-decoration:underline;
+}
+
+/*对文章进行评论*/
+#articleTitle{
+	height:30px;
+	line-height:30px;
+	text-align:left;
+	border-radius:3px 3px 0px 0px;
+	color:#999999;
+}
+
+/*详情页右栏*/
+#detail_right{
+	float:left;
+	margin-left:20px;
+	width:25%;
+	background-color:#F5F5F5;
+	box-shadow: 0px 0px 5px #CCC;
+}
+.detail_right_title{
+	width:100%;
+
+	float:left;
+}
+.detail_right_title div{
+	width:50%;
+	float:left;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-weight:bold;
+}
+.right_title_xg{
+	border-bottom:2px solid #009BF9;
+	color:#009BF9;
+
+}
+.right_title_rm{
+	border-bottom:2px solid #CCC;
+}
+
+.detail_right_content {
+	padding-left:10px;
+	float:left;
+}
+.content{
+	float:left;
+}
+.content a {
+	width:100%;
+	float:left;
+	padding:7px;
+
+}
+.content a:hover{
+	color:#009BF9;
+}
+.detail_right_content_rm {
+	display: none;
+}
+
+.content_time{
+	color:#AEAEB6;
+	font-size:14px;
+	width:100%;
+	float:left;
+	padding-left:10px;
+	border-bottom:1px solid #DBDBE0;
+	padding-bottom:10px;
+}
+
+
+
+
+
+/*文章评论的样式修改*/
+.userinfo{
+	padding-left:10px;
+	line-height:30px;
+	border:1px solid #CCC;
+	border-radius:5px 5px 0px 0px;
+	padding:10px;
+	padding-left:20px;
+}
+.usercontent{
+	padding-top:10px;
+	border:1px solid #CCC;
+	padding:10px;
+	padding-left:20px;
+	border-radius:0px 0px 5px 5px;
+}
+.userinfo span {
+	float:right;
+	color:#818181;
+}
+.user-image {
+	width:40px;
+	height:40px;
+}
+
+.plcontent{
+	margin-top:15px;
+	margin-bottom:5px;
+	padding-left:20px;
+}
+
+#more-comment  {
+	/*border:1px solid red;*/
+	text-align:center;
+	font-size:18px;
+	line-height:100%;
+	margin-bottom:40px;
+	margin-top:20px;
+
+}
+
+#loaded{
+	color:#282923;
+	font-weight:bold;
+	display:block;
+}
+
+#more-comment > a{
+	text-decoration: none;
+	position:relative;
+}
+
+#loading {
+	display: none;
+}
+.w-e-text-container{
+	border-top:1px solid #CCCCCC !important;
+	border-radius: 5px;
+	margin-top:0px !important; 
+}
+.w-e-toolbar{
+	border:none !important;
+	background-color:#FAFAFA !important;
+	margin-left:-10px !important;
+}
+
+#comment-commit{
+	background-color:#3486F7 !important;
+	color:white !important;
+	font-weight:bold !important;
+	height:0px;
+	padding:0px;
+	border:0px;
+	overflow: hidden;
+}
+
+#loginNow{
+	text-align:center;
+	font-size:14px;
+}
+#loginNow a{
+	color:red;
+}
+#shareBtn{
+	height:35px;
+	line-height:35px;
+}
+.fl{
+	font-size:14px;
+}
+.shareLogo{
+	width:20px;
+	margin-bottom:4px;
+}
+.shareLogo:hover{
+	cursor: pointer;
+}
+#follow{
+	color:#ffa313;
+}
+
+
